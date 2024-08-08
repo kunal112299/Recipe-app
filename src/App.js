@@ -36,6 +36,7 @@ function App() {
     <div>
       <Header search={search} handleChange={handleChange}  onSubmit={onSubmit}/>
       <Cards data={data}/>
+      
     </div>
   );
 }
